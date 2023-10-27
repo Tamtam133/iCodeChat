@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AuthorizationActivity"
+    android:background="@color/white">
+
+        <Button
+            android:id="@+id/popupMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="end"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/lang_icon"
+            android:drawableRight="@drawable/arrow_bottom_icon"
+            android:drawablePadding="2dp"
+            android:fontFamily="@font/poppins_regular"
+            android:padding="0dp"
+            android:text="@string/language"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginHorizontal="44dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/main_image" />
+
+
+        <EditText
+            android:id="@+id/editTextLogin"
+            style="@style/SignInEditTextStyle"
+            android:layout_marginTop="40dp"
+            android:drawableLeft="@drawable/login_icon"
+            android:hint="@string/login"
+            android:inputType="text" />
+
+        <com.hfad.icode.CustomEditText
+            android:id="@+id/editTextPassword"
+            style="@style/SignInEditTextStyle"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/password_icon"
+            android:drawableEnd="@drawable/visibility_off"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+        <android.widget.Button
+            android:id="@+id/buttonSignIn"
+            style="@style/SimpleButtonStyle"
+            android:layout_marginBottom="80dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/sign_in" />
+
+</LinearLayout>

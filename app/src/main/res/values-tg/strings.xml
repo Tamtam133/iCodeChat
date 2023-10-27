@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Бобуна</string>
+    <string name="password">Рамз</string>
+    <string name="login">Ном</string>
+    <string name="sign_in">Даромад</string>
+
+    <string name="language">Тоҷикӣ</string>
+    <string name="log_out">Баромад</string>
+    <string name="name">Ном</string>
+    <string name="online">онлайн</string>
+    <string name="type">Нависед...</string>
+    <string name="save">Сохранить</string>
+    <string name="about">Дарбораи Ман</string>
+    <string name="birthday">Зодруз</string>
+    <string name="edit_profile">Таҳрир</string>
+    <string name="user_name">Номи Истифодабаранда</string>
+    <string name="change_photo">Изменить аватар</string>
+</resources>

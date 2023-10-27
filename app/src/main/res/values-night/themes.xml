@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/black</item>
+
+        <!-- popupMenuBackground -->
+        <item name="android:itemBackground">@color/menu_grey</item>
+        <item name="popupMenuBackground">@color/menu_grey</item>
+
+        <item name="checkedIcon">@drawable/selected_icon</item>
+        <item name="checkboxStyle">@style/MyCheckBox</item>
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:button">@drawable/checkbox</item>
+    </style>
+
+</resources>

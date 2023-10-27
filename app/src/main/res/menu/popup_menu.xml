@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/en"
+        android:checkable="true"
+        android:icon="@drawable/en_icon"
+        android:title="@string/english" />
+    <item
+        android:id="@+id/ru"
+        android:checkable="true"
+        android:icon="@drawable/ru_icon"
+        android:title="@string/russian" />
+    <item
+        android:id="@+id/tg"
+        android:checkable="true"
+        android:icon="@drawable/tj_icon"
+        android:title="@string/tajik" />
+</menu>

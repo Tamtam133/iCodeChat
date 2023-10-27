@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ромашка</string>
+    <string name="password">Пароль</string>
+    <string name="login">Логин</string>
+    <string name="sign_in">Войти</string>
+
+    <string name="language">Русский</string>
+
+    <string name="russian" translatable="false">Русский</string>
+    <string name="english" translatable="false">English</string>
+    <string name="tajik" translatable="false">Тоҷикӣ</string>
+    <string name="log_out">Выход</string>
+    <string name="save">Сохранить</string>
+    <string name="about">Обо мне</string>
+    <string name="birthday">День рождения</string>
+    <string name="name">Имя</string>
+    <string name="edit_profile">Редактирование профиля</string>
+    <string name="user_name">Имя Пользователя</string>
+    <string name="online">онлайн</string>
+    <string name="type">Пишите...</string>
+    <string name="change_photo">Изменить аватар</string>
+
+</resources>

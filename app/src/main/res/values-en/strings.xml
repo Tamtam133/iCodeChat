@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Daisy</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Continue</string>
+
+    <string name="language">English</string>
+    <string name="log_out">Log out</string>
+    <string name="save">Save</string>
+    <string name="about">About</string>
+    <string name="birthday">Birthday</string>
+    <string name="name">Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="online">online</string>
+    <string name="type">Type...</string>
+    <string name="change_photo">Change photo</string>
+</resources>

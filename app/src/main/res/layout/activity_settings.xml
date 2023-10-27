@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:adjustViewBounds="true"
+    android:orientation="vertical"
+    tools:context=".SettingsActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/purple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/imageButtonBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="48dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center_horizontal"
+                android:text="@string/edit_profile"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/photo"
+            app:civ_border_color="@color/white"
+            android:layout_marginTop="6dp"
+            app:civ_border_width="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label" />
+
+        <ImageButton
+            android:id="@+id/imageButtonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/edit"
+            app:layout_constraintBottom_toBottomOf="@id/avatar"
+            app:layout_constraintEnd_toEndOf="@id/avatar"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/name"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        style="@style/SignInEditTextStyle"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:text="Alice"
+        android:drawableLeft="@drawable/login_icon"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/birthday"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editTextBirthday"
+        style="@style/SignInEditTextStyle"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/birthday"
+        android:hint="@string/birthday"
+        android:text="08-09-2023"
+        android:inputType="date"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="@string/about"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/editTextAbout"
+        style="@style/SignInEditTextStyle"
+        android:drawableLeft="@drawable/about"
+        android:text="iCode"
+        android:hint="@string/about"
+        android:inputType="text"
+        android:textColor="@color/black" />
+
+    <android.widget.Button
+        android:id="@+id/buttonSave"
+        style="@style/SimpleButtonStyle"
+        android:background="@drawable/disabled_simple_button"
+        android:layout_marginTop="40dp"
+        android:paddingVertical="14dp"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="34dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/log_out"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/setting_button_color"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="0dp"
+        android:text="@string/log_out"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF262626</color>
+    <color name="black_hint">#FF3D3D3F</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_smoke">#FFF5F5F5</color>
+    <color name="purple">#FF806CFF</color>
+    <color name="purple_message">#FF897AEB</color>
+    <color name="error">#FFED4C5C</color>
+    <color name="active">#FF76E674</color>
+    <color name="border_purple">#FFC3BDE9</color>
+    <color name="purple_light">#FFC2BAEF</color>
+    <color name="grey">#FFCAD3D3</color>
+    <color name="disabled_grey">#FFD9D9D9</color>
+    <color name="message_grey">#FF7C8389</color>
+    <color name="border_grey">#FFEAECEC</color>
+    <color name="menu_grey">#FFF7F7F7</color>
+</resources>
